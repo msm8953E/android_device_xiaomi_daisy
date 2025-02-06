@@ -14,17 +14,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 AB_OTA_UPDATER := false
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common infinity xstuff.
+$(call inherit-product, vendor/$(ROM_FOLDER)/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := lineage_sakura
+PRODUCT_NAME := $(ROM_FOLDER)_sakura
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
+
+# Extra Stuffs
+INFINITY_MAINTAINER := FARHAN•AFK
+TARGET_BUILD_VIMUSIC := true
+USE_MOTO_CALCULATOR := true
+WITH_GMS := ture 
+ROM_FOLDER := infinity
+# Boot animation resolution.
+TARGET_BOOT_ANIMATION_RES := 720
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
