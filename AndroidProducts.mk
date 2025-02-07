@@ -7,3 +7,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/$(ROM_FOLDER)_daisy.mk \
     $(LOCAL_DIR)/$(ROM_FOLDER)_sakura.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_daisy-user \
+    infinity_daisy-userdebug \
+    infinity_daisy-eng \
+    infinity_sakura-user \
+    infinity_sakura-userdebug \
+    infinity_sakura-eng
