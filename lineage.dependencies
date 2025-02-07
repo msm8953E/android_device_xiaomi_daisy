@@ -1,10 +1,38 @@
 [
   {
-    "repository": "android_device_xiaomi_msm8953-common",
-    "target_path": "device/xiaomi/msm8953-common"
+    "remote"      : "github",
+    "repository"  : "kibria5/android_vendor_xiaomi_violet",
+    "branch"      : "udc",
+    "target_path" : "vendor/xiaomi/violet"
   },
   {
-    "repository": "android_kernel_xiaomi_msm8953",
-    "target_path": "kernel/xiaomi/msm8953"
-  }
+    "remote"      : "github",
+    "repository"  : "RisingOSS-devices/android_kernel_xiaomi_violet",
+    "branch"      : "14",
+    "target_path" : "kernel/xiaomi/violet"
+  },
+  {
+    "remote"      : "gitlab",
+    "repository"  : "CuriousNom/chaste_vendor-xiaomi-firmware-violet",
+    "branch"      : "14.0",
+    "target_path" : "vendor/xiaomi-firmware/violet"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "LineageOS/android_hardware_xiaomi",
+    "branch"      : "lineage-21",
+    "target_path" : "hardware/xiaomi"
+  },
+  {
+    "remote"      : "gitlab",
+    "repository"  : "Joker-V2/android_vendor_MiuiCamera",
+    "branch"      : "thirteen",
+    "target_path" : "vendor/MiuiCamera"
+  },
+  {
+    "remote"      : "gitlab",
+    "repository"  : "itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r522817",
+    "branch"      : "14.0",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-r522817"
+  } 
 ]
