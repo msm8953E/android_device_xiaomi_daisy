@@ -17,6 +17,6 @@ sleep 1
  git clone https://github.com/xiaomi-msm8953-devs/android_device_xiaomi_msm8953 -b lineage-21 device/xiaomi/msm8953-common 
 
 # Vendor Blobs 
-git clone https://github.com/msm8953E/proprietary_vendor_xiaomi_daisy -b lineage-21vendor/xiaomi/daisy
-git clone https://github.com/msm8953E/proprietary_vendor_xiaomi_msm8953 -b lineage-21 vendor/xiaomi/msm8953-common
+git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_daisy -b lineage-21 vendor/xiaomi/daisy
+git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953 -b lineage-21 vendor/xiaomi/msm8953-common
 
