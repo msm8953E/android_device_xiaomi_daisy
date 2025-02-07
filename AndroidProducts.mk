@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/$(ROM_FOLDER)_daisy.mk \
-    $(LOCAL_DIR)/$(ROM_FOLDER)_sakura.mk
+    $(LOCAL_DIR)/infinity_daisy.mk \
+    $(LOCAL_DIR)/infinity_sakura.mk
 
 COMMON_LUNCH_CHOICES := \
     infinity_daisy-user \
