@@ -20,3 +20,6 @@ git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_daisy
 # KERNEL - DAISY 
 
 git clone https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953 -b lineage-20 kernel/xiaomi/msm8953
+
+# fingerprint 
+git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_opensource_interfaces -b lineage-21 vendor/fingerprint/opensource/interfaces
