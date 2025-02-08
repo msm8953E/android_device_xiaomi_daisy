@@ -7,16 +7,16 @@ echo -e "${color}Applying patches${end}"
 sleep 1
 
 
-# Kernel 
- git clone https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953 -b lineage-21 kernel/xiaomi/msm8953
+#DEVICE - MSM8953-COMMON
 
-# Hardware 
-  git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-21 hardware/xiaomi
-  
-# Device common 
- git clone https://github.com/xiaomi-msm8953-devs/android_device_xiaomi_msm8953 -b lineage-21 device/xiaomi/msm8953-common 
+git clone https://github.com/xiaomi-msm8953-devs/android_device_xiaomi_msm8953-common.git -b lineage-20 device/xiaomi/msm8953-common
 
-# Vendor Blobs 
-git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_daisy -b lineage-21 vendor/xiaomi/daisy
-git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953 -b lineage-21 vendor/xiaomi/msm8953-common
+# VENDOR - DAISY
 
+git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953-common.git -b lineage-21 vendor/xiaomi/msm8953-common
+
+git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_daisy.git -b lineage-21 vendor/xiaomi/daisy
+
+# KERNEL - DAISY 
+
+git clone https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953 -b lineage-20 kernel/xiaomi/msm8953
