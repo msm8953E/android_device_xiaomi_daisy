@@ -18,7 +18,7 @@ sleep 1
 
 # Vendor Blobs 
 git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_daisy -b lineage-22.1 vendor/xiaomi/daisy
-git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953 -b lineage-22.1 vendor/xiaomi/msm8953-common
+git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953-common -b lineage-22.1 vendor/xiaomi/msm8953-common
 
 # fingerprint 
 git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_opensource_interfaces -b lineage-21 vendor/fingerprint/opensource/interfaces
