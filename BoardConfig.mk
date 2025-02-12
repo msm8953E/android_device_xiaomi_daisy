@@ -72,3 +72,15 @@ ALLOW_MISSING_DEPENDENCIES=true
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true 
 ALLOW_MISSING_DEPENDENCIES := true 
 ALLOW_MISSING_DEPENDENCIES=true
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/Phoneinfo.prop
+
+# extra 
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
+# Fix prebuilt build.
+#$(shell mkdir -p $(OUT_DIR)/target/product/daisy/obj/KERNEL_OBJ/usr)
+
+# Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
+#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
