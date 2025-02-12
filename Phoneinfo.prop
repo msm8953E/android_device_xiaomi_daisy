@@ -1,0 +1,5 @@
+# Infinity-X AboutPhone
+ro.infinity.soc=SDM625
+ro.infinity.battery=4000mAh
+ro.infinity.display=720x1520
+ro.infinity.camera=12 MP + 2 MP
