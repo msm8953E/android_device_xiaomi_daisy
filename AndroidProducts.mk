@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_daisy.mk \
-    $(LOCAL_DIR)/lineage_sakura.mk
+    $(LOCAL_DIR)/infinity_daisy.mk \
+    $(LOCAL_DIR)/infinity_sakura.mk
