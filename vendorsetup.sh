@@ -11,7 +11,7 @@ sleep 1
  git clone https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953 -b lineage-22.1 kernel/xiaomi/msm8953
 
 # Hardware 
-rm -rf hardware_xiaomi
+rm -rf hardware/xiaomi
 git clone https://github.com/PixelOS-AOSP/hardware_xiaomi -b fifteen hardware/xiaomi
   
 # Device common 
