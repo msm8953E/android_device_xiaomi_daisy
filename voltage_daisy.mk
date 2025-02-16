@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
-7
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
 PRODUCT_NAME := voltage_daisy
