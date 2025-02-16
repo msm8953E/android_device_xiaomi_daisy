@@ -86,3 +86,7 @@ endif
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/daisy/daisy-vendor.mk)
+
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
