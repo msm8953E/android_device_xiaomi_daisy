@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_daisy.mk \
-    $(LOCAL_DIR)/orion_sakura.mk
+    $(LOCAL_DIR)/voltage_daisy.mk \
+    $(LOCAL_DIR)/voltage_sakura.mk
