@@ -24,8 +24,8 @@ PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
 
 # GMS
-WITH_GMS := true
-ORION_GAPPS := true
+WITH_GMS := false 
+ORION_GAPPS := false 
 
 # OrionOS Flags
 ORION_BUILD_TYPE := Unofficial
