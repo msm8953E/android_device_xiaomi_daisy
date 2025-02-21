@@ -15,22 +15,22 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/orion/config/common_full_phone.mk)
-7
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
 PRODUCT_NAME := orion_daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
-WITH_GMS := false
 
 # GMS
-ORION_GAPPS :=  false 
+WITH_GMS := true
+ORION_GAPPS := true
 
 # OrionOS Flags
 ORION_BUILD_TYPE := Unofficial
-ORION_MAINTAINER := FARHAN • AFK
-ORION_MAINTAINER_LINK := https://t.me/FARHAN_MUH_TASIM
+ORION_MAINTAINER := FARHAN
+ORION_MAINTAINER_LINK := https://t.me/farhan_muh_tasim
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
