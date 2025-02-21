@@ -14,7 +14,7 @@ AB_OTA_UPDATER := true
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common infinity x stuff.
-$(call inherit-product, vendor/$(ROM_FOLDER)/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
