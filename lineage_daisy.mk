@@ -24,6 +24,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
+WITH_GMS := ture 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
