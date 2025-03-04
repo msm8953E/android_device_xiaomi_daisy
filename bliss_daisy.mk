@@ -23,6 +23,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
 WITH_GMS := false
+ROM_FOLDER := daisy
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
