@@ -71,6 +71,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/Phoneinfo.prop
 
 # extra 
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 
 # Fix prebuilt build.
 $(shell mkdir -p $(OUT_DIR)/target/product/daisy/obj/KERNEL_OBJ/usr)
