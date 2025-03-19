@@ -9,7 +9,7 @@ sleep 1
 
 #DEVICE - MSM8953-COMMON
 
-git clone https://github.com/xiaomi-msm8953-devs/android_device_xiaomi_msm8953-common.git -b lineage-21 device/xiaomi/msm8953-common
+git clone https://github.com/msm8953E/android_device_xiaomi_msm8953-common.git -b lineage-21 device/xiaomi/msm8953-common
 
 # VENDOR - DAISY
 
