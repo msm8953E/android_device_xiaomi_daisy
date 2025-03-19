@@ -26,6 +26,11 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 WITH_GMS := ture 
 
+# mtnr
+PRODUCT_SYSTEM_PROPERTIES += \
+     ro.crdroid.maintainer=FARHAN_EXAM
+
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
