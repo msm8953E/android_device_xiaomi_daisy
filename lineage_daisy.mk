@@ -25,6 +25,8 @@ PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 WITH_GMS := ture 
+# short cut 
+ROM_FOLDER := lineage
 
 # mtnr
 PRODUCT_SYSTEM_PROPERTIES += \
