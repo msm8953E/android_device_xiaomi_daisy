@@ -32,6 +32,7 @@ TARGET_BUILD_VIMUSIC := true
 USE_MOTO_CALCULATOR := true
 WITH_GMS := ture 
 ROM_FOLDER := infinity
+TARGET_DISABLES_GMS := true
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
