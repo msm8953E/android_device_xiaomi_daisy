@@ -7,7 +7,7 @@
 # Dex/ART optimization
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
-USE_DEX20AT_DEBUG: false
+USE_DEX20AT_DEBUG := false
 TARGET_DISABLES_GMS := true
 
 # Inherit from msm8953-common
