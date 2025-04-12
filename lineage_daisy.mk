@@ -26,6 +26,11 @@ WITH_GMS := ture
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+
+# fix some qpr2 error 
+PRODUCT_PACKAGES_REMOVE += CarDeveloperOptions
+PRODUCT_PACKAGES_REMOVE += WallpaperPicker2Lib
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys" \
     BuildFingerprint=xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.21.0.QDLMIXM:user/release-keys
