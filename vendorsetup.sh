@@ -22,3 +22,7 @@ git clone https://github.com/xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm89
 
 # fingerprint 
 git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_opensource_interfaces -b lineage-21 vendor/fingerprint/opensource/interfaces
+
+
+# Curl Signing Files
+git clone https://github.com/germaniumsculk/certs
