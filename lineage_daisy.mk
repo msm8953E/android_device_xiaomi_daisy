@@ -28,3 +28,18 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys" \
     BuildFingerprint=xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.21.0.QDLMIXM:user/release-keys
+
+
+
+# Gapps.
+TARGET_DISABLES_GMS := true
+WITH_GMS := true 
+
+# Misc.
+AXION_CAMERA_REAR_INFO := 12MP
+AXION_CAMERA_FRONT_INFO := 5MP
+AXION_MAINTAINER := FARHAN<jisan>
+AXION_PROCESSOR := Qualcomm_Snapdragon_660
+
+# Recognized ROM As.
+ROM_FOLDER := lineage
