@@ -80,3 +80,11 @@ endif
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/daisy/daisy-vendor.mk)
+# certified 
+SIGNING_KEY_PATH ?= certs
+RELEASE_KEY := $(SIGNING_KEY_PATH)/releasekey
+SIGNING_KEY_PATH ?= certs
+RELEASE_KEY := $(SIGNING_KEY_PATH)/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := $(RELEASE_KEY)
+PRODUCT_OTA_PUBLIC_KEYS := $(RELEASE_KEY)
+
