@@ -88,3 +88,11 @@ RELEASE_KEY := $(SIGNING_KEY_PATH)/releasekey
 PRODUCT_DEFAULT_DEV_CERTIFICATE := $(RELEASE_KEY)
 PRODUCT_OTA_PUBLIC_KEYS := $(RELEASE_KEY)
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Remove these from PRODUCT_PACKAGES if present
+PRODUCT_PACKAGES += \
+    CarDeveloperOptions \
+    WallpaperPicker2Lib \
