@@ -4,11 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Dex/ART optimization
-PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
-USE_DEX20AT_DEBUG := false
-TARGET_DISABLES_GMS := true
+# Vanilla apps
+PRODUCT_PACKAGES += \
+    Dialer \
+    Messaging \
+    Contacts \
+    DeskClock 
+    
 
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
