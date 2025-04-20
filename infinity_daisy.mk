@@ -33,8 +33,14 @@ USE_MOTO_CALCULATOR := true
 WITH_GMS := ture 
 ROM_FOLDER := infinity
 TARGET_DISABLES_GMS := true
+
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
+
+# Dex/ART optimization
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
+USE_DEX20AT_DEBUG: false
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
