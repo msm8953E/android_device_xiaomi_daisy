@@ -33,7 +33,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Gapps.
 TARGET_DISABLES_GMS := true
-WITH_GMS := true 
+#WITH_GMS := true 
 
 # Misc.
 AXION_CAMERA_REAR_INFO := 12MP
