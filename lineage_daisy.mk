@@ -65,4 +65,4 @@ TARGET_ENABLE_BLUR := false
 PRODUCT_NO_CAMERA := tfalse
 
 # Whether to ship lawnchair launcher, false by default
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := ture 
+#TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := ture 
