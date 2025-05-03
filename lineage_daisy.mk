@@ -33,7 +33,36 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Gapps.
 TARGET_DISABLES_GMS := true
-WITH_GMS := true 
+
 
 # Recognized ROM As.
 ROM_FOLDER := lineage
+
+# some extra 
+TARGET_DEFAULT_PIXEL_LAUNCHER := true/false 
+
+# Whether to ship prebuilt Google Dialer and Messages, false by default
+TARGET_INCLUDE_GOOGLE_DIALER := false
+
+# Add the following variables:
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="FARHAN"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="SDM625" \
+    RisingMaintainer="FARHAN"
+
+RISING_MAINTAINER := FARHAN
+
+# Disable/enable blur support, false by default
+TARGET_ENABLE_BLUR := false
+
+# Whether to ship aperture camera, false by default
+PRODUCT_NO_CAMERA := tfalse
+
+# Whether to ship lawnchair launcher, false by default
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := ture 
