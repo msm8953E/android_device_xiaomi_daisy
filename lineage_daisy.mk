@@ -14,7 +14,7 @@ AB_OTA_UPDATER := true
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common LineageOS stuff.
-TARGET_DISABLE_EPPE := true
+#TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
