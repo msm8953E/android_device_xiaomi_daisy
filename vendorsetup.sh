@@ -31,4 +31,5 @@ git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_open
 
 # tenX-OS vendor gsm committ
 rm -rf vendor/lineage
+rm -rf vendor/gms
 git clone https://github.com/msm8953E/vendor_TenX -b fourteen vendor/lineage
