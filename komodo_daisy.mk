@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2021 The LineageOS Project
+# Copyright (C) 2017-2021 The OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,23 +13,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 AB_OTA_UPDATER := true
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
-# Inherit some common LineageOS stuff.
-#TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Boot animation resolution.
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Inherit some common komodoOS stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := lineage_daisy
+PRODUCT_NAME := komodo_daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
-#WITH_GMS := ture 
-
-# Gapps.
-TARGET_DISABLES_GMS := true
-
-# Recognized ROM As.
-ROM_FOLDER := lineage
+# something 
+ROM_FOLDER := komodo
+KOMODO_MAINTAINER := Farhan_X_Achu
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
