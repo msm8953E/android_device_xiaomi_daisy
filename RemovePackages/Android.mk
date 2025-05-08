@@ -20,41 +20,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     MicropaperPrebuilt \
     MyVerizonServices \
-    OBDM_Permissions \
-    obdm_stub \
-    OPScreenRecord \
-    Ornament \
-    PrebuiltGmail \
-    PixelWallpapers2021 \
-    PixelWallpapers2020 \
-    RecorderPrebuilt \
-    SafetyHubPrebuilt \
-    SCONE \
-    ScribePrebuilt \
-    Showcase \
-    Snap \
-    SoundAmplifierPrebuilt \
-    SprintDM \
-    SprintHM \
-    TurboPrebuilt \
-    Tycho \
-    TipsPrebuilt \
-    talkback \
-    USCCDM \
-    VZWAPNLib \
-    VzwOmaTrigger \
-    WallpapersBReel2020 \
-    YouTube \
-    BetterBugStub \
-    CalculatorGooglePrebuilt \
-    CalendarGooglePrebuilt \
-    Chrome-Stub \
-    GoogleContacts \
-    PrebuiltDeskClockGoogle \
-    PrebuiltBugle \
-    TrichromeLibrary \
-    TrichromeLibrary-Stub \
-    GCS \
     QuickSearchBox
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
