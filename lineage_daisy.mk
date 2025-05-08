@@ -32,3 +32,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.21.0.QDLMIXM:user/release-keys"
+
+
+# TenX
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_BCR := true
+WITH_GMS := false
+# gapps removed from vendor with git commit 
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+PRODUCT_NO_CAMERA := true
+TENX_BUILD_TYPE := unofficial 
