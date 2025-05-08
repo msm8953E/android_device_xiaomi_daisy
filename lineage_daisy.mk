@@ -32,7 +32,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Gapps.
 TARGET_DISABLES_GMS := true
-
+WITH_GMS := false 
 
 # Recognized ROM As.
 ROM_FOLDER := lineage
