@@ -14,9 +14,16 @@ include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG += xiaomi/daisy.config xiaomi/sakura.config
 
 ifeq ($(AB_OTA_UPDATER), true)
+
 # Filesystem
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+PRODUCT_BUILD_SYSTEM_IMAGE := true
+
+# Do NOT define dynamic partition stuff
+BOARD_SUPER_PARTITION_SIZE := 
+BOARD_SUPER_PARTITION_GROUPS := 
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -55,7 +62,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 endif
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2021.07.01
+VENDOR_SECURITY_PATCH := 2021-07-01
 
 # Inherit the proprietary files
 include vendor/xiaomi/daisy/BoardConfigVendor.mk
