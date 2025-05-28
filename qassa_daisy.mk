@@ -32,16 +32,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
 
-# Inherit some common AOSP stuff.
+# Inherit some common KeepQASSA stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 # TARGET_GAPPS_ARCH := arm64
 # CUSTOM_BUILD_TYPE := OFFICIAL
-$(call inherit-product, vendor/stag/config/common.mk)
-$(call inherit-product-if-exists, vendor/stag/config/common_full_phone.mk)
+$(call inherit-product, vendor/qassa/config/common.mk)
+$(call inherit-product-if-exists, vendor/qassa/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := stag_daisy
+PRODUCT_NAME := qassa_daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 Lite
 PRODUCT_MANUFACTURER := Xiaomi
@@ -55,3 +55,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys"
+
+# KeepQASSA stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER := true
+QASSA_MAINTAINER := FARHAN
+
