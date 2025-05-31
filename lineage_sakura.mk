@@ -23,6 +23,13 @@ PRODUCT_NAME := lineage_sakura
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+#WITH_GMS := ture 
+
+# Gapps.
+TARGET_DISABLES_GMS := true
+
+# Recognized ROM As.
+ROM_FOLDER := lineage
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
