@@ -23,7 +23,6 @@ PRODUCT_NAME := lineage_daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
-#WITH_GMS := ture 
 
 # Gapps.
 TARGET_DISABLES_GMS := true
@@ -36,3 +35,15 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys" \
     BuildFingerprint=xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.21.0.QDLMIXM:user/release-keys
+
+
+# Matrixx Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+#MATRIXX_BUILD_TYPE := Official
+# for now it's unofficial 
+MATRIXX_MAINTAINER := FARHAN - ジサン
+MATRIXX_CHIPSET := SDM625
+MATRIXX_BATTERY := 4000mah
+MATRIXX_DISPLAY := 1080x2280
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := true

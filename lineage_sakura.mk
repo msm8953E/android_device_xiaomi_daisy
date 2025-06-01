@@ -23,7 +23,6 @@ PRODUCT_NAME := lineage_sakura
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
-#WITH_GMS := ture 
 
 # Gapps.
 TARGET_DISABLES_GMS := true
@@ -36,3 +35,17 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sakura-user 9 PKQ1.180917.001 V12.0.1.0.PDICNXM release-keys" \
     BuildFingerprint=xiaomi/sakura/sakura:9/PKQ1.180917.001/V12.0.1.0.PDICNXM:user/release-keys
+
+# Matrixx Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+#MATRIXX_BUILD_TYPE := Official
+# for now it's unofficial
+MATRIXX_MAINTAINER := FARHAN - ジサン
+MATRIXX_CHIPSET := SDM625
+MATRIXX_BATTERY := 4000mah
+MATRIXX_DISPLAY := 1080x2280
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := true
+
+
+
