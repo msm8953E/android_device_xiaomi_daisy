@@ -55,11 +55,10 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 endif
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2021-07-01
+VENDOR_SECURITY_PATCH := 2021/07/01
 
 # Inherit the proprietary files
 include vendor/xiaomi/daisy/BoardConfigVendor.mk
-
 
 # missing something 
 ALLOW_MISSING_DEPENDENCIES=true
