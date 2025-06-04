@@ -28,6 +28,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Gapps.
 TARGET_DISABLES_GMS := true
 
+# GazaOS maintenr string added 
+MAINTAINER_GAZAOS := FARHAN
+
 # Recognized ROM As.
 ROM_FOLDER := lineage
 
