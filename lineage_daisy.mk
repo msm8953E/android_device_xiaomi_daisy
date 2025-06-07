@@ -30,6 +30,7 @@ TARGET_DISABLES_GMS := true
 
 # GazaOS maintenr string added 
 MAINTAINER_GAZAOS := FARHAN
+WITH_GMS := true
 
 # Recognized ROM As.
 ROM_FOLDER := lineage
