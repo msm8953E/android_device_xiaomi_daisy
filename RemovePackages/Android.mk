@@ -5,24 +5,50 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    arcore \
-    AndroidAutoStubPrebuilt \
-    AICorePrebuilt \
-    AiWallpapers \
     Chrome \
-    Chrome-stub \
-    DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01 \
-    DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01 \
     Drive \
+    Gmail2 \
     Maps \
+    BetterBugStub \
+    AmbientSensePrebuilt \
+    arcore \
+    Camera2 \
+    ConnMO \
+    ConnMetrics \
+    DCMO \
+    DevicePolicyPrebuilt \
+    DMService \
+    Drive \
+    GCS \
+    GoogleCamera \
+    Music \
+    MyVerizonServices \
+    OBDM_Permissions \
+    obdm_stub \
+    OdadPrebuilt \
+    OemDmTrigger \
+    OPScreenRecord \
+    Ornament \
     PixelLiveWallpaperPrebuilt \
-    Photos \
+    PlayAutoInstallConfig \
     PrebuiltGmail \
+    RecorderPrebuilt \
     SafetyHubPrebuilt \
+    SCONE \
+    ScribePrebuilt \
+    Showcase \
+    Snap \
+    Snap2 \
+    SnapdragonCamera \
     SoundAmplifierPrebuilt \
-    TrichromeLibrary \
-    TrichromeLibrary-Stub \
-    YouTube 
+    SprintDM \
+    SprintHM \
+    USCCDM \
+    Videos \
+    VZWAPNLib \
+    VzwOmaTrigger \
+    YouTube \
+    CalendarGooglePrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
